@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/daysuntil/static/css/main.67efc6e8.css",
+    "main.js": "/daysuntil/static/js/main.7609606c.js",
+    "static/media/bride_groom.svg": "/daysuntil/static/media/bride_groom.d64312625f6bb72a2f297e896ee0b744.svg",
+    "static/media/hoefler-text-black-italic.ttf": "/daysuntil/static/media/hoefler-text-black-italic.92d8afad92c22d70cd9a.ttf",
+    "static/media/decoration_props_right.svg": "/daysuntil/static/media/decoration_props_right.5e288265b32c7f93d93f21a2538e56fe.svg",
+    "static/media/decoration_props_left.svg": "/daysuntil/static/media/decoration_props_left.3009813cbf259d79c287c24a13ebd874.svg",
+    "index.html": "/daysuntil/index.html",
+    "main.67efc6e8.css.map": "/daysuntil/static/css/main.67efc6e8.css.map",
+    "main.7609606c.js.map": "/daysuntil/static/js/main.7609606c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67efc6e8.css",
+    "static/js/main.7609606c.js"
+  ]
+}
