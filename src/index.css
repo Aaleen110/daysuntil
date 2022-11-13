@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+newText {
+  font-family: 'hoeflertext-black-italic-sc', sans-serif;
+}
+
+@font-face {
+  font-family: 'Hoefler';
+  font-weight: 900;
+  src: local('Lato'), url(./fonts/hoefler-text-black-italic.ttf) format('truetype');
+}
