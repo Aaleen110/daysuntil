@@ -10,23 +10,13 @@ import moment from "moment"
 
 function AppWeb() {
 
-    const [width, setWidth] = useState(window.innerWidth);
     const [days, setDays] = useState(0);
-
-    function handleWindowSizeChange() {
-        setWidth(window.innerWidth);
-    }
 
     useEffect(() => {
         var given = moment("2023-02-03", "YYYY-MM-DD");
         var current = moment().startOf('day');
         let days = moment.duration(given.diff(current)).asDays();
-        setDays(days);
-
-        window.addEventListener('resize', handleWindowSizeChange);
-        return () => {
-            window.removeEventListener('resize', handleWindowSizeChange);
-        }
+        setDays(days - 1);
     })
     return (
         <div style={{ display: 'flex', flexDirection: 'column', flex: 1, height: '100vh', justifyContent: 'center', alignItems: 'center', backgroundColor: colors.bgColor }}>

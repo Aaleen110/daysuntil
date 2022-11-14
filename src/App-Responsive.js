@@ -15,7 +15,7 @@ function AppResponsive() {
     var given = moment("2023-02-03", "YYYY-MM-DD");
     var current = moment().startOf('day');
     let days = moment.duration(given.diff(current)).asDays();
-    setDays(days);
+    setDays(days - 1);
 
   })
   return (

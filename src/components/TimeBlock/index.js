@@ -23,8 +23,8 @@ export default function TimeBlock() {
       let minutes = 60 - moment().format('mm');
       let seconds = 60 - moment().format('ss');
 
-      setHours(hours);
-      setMinutess(minutes);
+      setHours(hours - 1);
+      setMinutess(minutes - 1);
       setSeconds(seconds);
 
     }, 1000)
