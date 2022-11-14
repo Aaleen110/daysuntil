@@ -29,7 +29,7 @@ export default function TimeBlock() {
 
     }, 1000)
 
-    setDays(days);
+    setDays(days - 1);
 
 
   }, [])
